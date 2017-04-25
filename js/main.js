@@ -30,7 +30,6 @@ function res(){
 }
 
 html:
-
  <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit" onclick="res(); return false">Sign in</button>
       </form>
           <div id="user"></div>
