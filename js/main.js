@@ -20,7 +20,7 @@ translate();
 var button = document.getElementsByClassName("btn")[0];
 button.addEventListener("click",function(e){
 	e.preventDefault();
-	respuesta.innerHTML = "<h3>Datos de Formulario</h3><br><p>correo Electrónico <br>" + document.getElementById("inputEmail").value + "<br>Datos de Formulario<br>" + document.getElementById("inputPassword").value + "</p>";
+	respuesta.innerHTML = "<h3>Datos de Formulario</h3><br><p><b>Correo Electrónico :</b><br>" + document.getElementById("inputEmail").value + "<br><b>Password :</b><br>" + document.getElementById("inputPassword").value + "</p>";
 })
 
 /*
